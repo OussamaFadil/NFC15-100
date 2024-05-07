@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFC_15 100</title>
+</head>
+<body>
+
+    <a id="pdfLink" href="" download></a>
+
+    <script>
+        // JavaScript to automatically trigger download of the PDF when the page loads
+        window.onload = function() {
+            // Change the path to your PDF file
+            var pdfPath = 'C:/Users/lenovo/OneDrive/Bureau/Nouveau dossier/Chatbot/NFC 15 100.pdf';
+            // Set the href attribute of the anchor tag to the PDF file path
+            document.getElementById('pdfLink').href = pdfPath;
+            // Trigger the click event to start the download
+            document.getElementById('pdfLink').click();
+        };
+    </script>
+
+</body>
+</html>
